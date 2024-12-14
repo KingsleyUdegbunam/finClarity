@@ -1,0 +1,212 @@
+body {
+    background-color: rgba(230, 242, 255, 1);
+    margin: 0;
+}
+
+button {
+    font-family: afacad, sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    cursor:pointer;
+}
+
+.very-top-text-div {
+    display: flex;
+    background-color: rgba(0, 163, 224, 0.3);
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    min-width: fit-content;
+}
+
+.very-top-text {
+    color: rgba(0, 95, 174, 1);
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+    font-style: normal;
+    
+}
+
+.nav-bar {
+    background-color: rgba(230, 242, 255, 1);
+    font-family: lora, serif;
+    font-size: 16px;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 58px;
+    width: auto;
+    padding-left: 120px;
+    padding-right: 120px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    min-width:max-content;
+    
+}
+
+.nav-left-section {
+    align-items: center;
+    justify-content: start;
+}
+
+.nav-middlde-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 32px;
+    height: 20px;
+    width: 448px;  
+}
+
+.nav-right-section{
+    align-items: center;
+    justify-content: end;
+}
+
+.active-button {
+    color: rgba(0, 95, 174, 1);
+}
+
+
+.sign-out-button {
+    font-size: 16px;
+    line-height: 21.33px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(224, 104, 0, 1);
+    border-radius: 30px;
+    border: none;
+    color:rgba(255, 255, 255, 1)
+}
+
+.finbot-container {
+    background-color: white;
+    height: 474px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 54px;
+    margin-bottom: 39px;
+    border-radius: 15px;
+    padding-top: 32px;
+    padding-left: 28px;
+    min-width: max-content;
+    
+}
+
+.finbot-n-watch-demo-row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-right: 143.5px;;
+}
+
+.left-section-finnbot {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.finbot-image-container {
+    width: 54px;
+    height: 54px;
+}
+
+.finbot-image {
+    height: 100%;
+    width: 100%;
+}
+
+.finbot-text {
+    font-family: afacad, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.right-section-finbot {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.watch-demo-button {
+    display:flex; 
+    column-gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(224, 104, 0, 1);
+    width: 166px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border-radius: 30px;
+
+}
+
+.watch-demo-text {
+    background-color: rgba(224, 104, 0, 1);
+    display: inline-block;
+    border: none;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    padding: 0;
+}
+
+.chevron-up-container {
+    width: 16px;
+    height: 16px;
+}
+
+.smart-scan-landing-text {
+    font-family: lora, times;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 38px;
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 40.96px;
+    width: 457px;
+}
+
+.upload-receipt-button {
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(224, 104, 0, 1);
+    border-radius: 30px;
+    border: none;
+    color:rgba(255, 255, 255, 1)
+}
+
+.qr-code-scan-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 398px;
+    height: 275px;
+    background-color:rgba(0, 95, 174, 1) ;
+    border-radius: 20px;
+   
+}
+
+.qr-code-scan-image {
+    transform: rotate(3.5deg);
+    width: 100%;
+    height: 100%;
+}
+
+.text-and-qr-code-scan-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-right: 74px;
+    margin-top: 87px;
+}
