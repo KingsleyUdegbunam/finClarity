@@ -1,0 +1,365 @@
+body {
+    min-width: max-content;
+    margin: 0;
+}
+
+
+
+.header-bank-integration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 64px;
+    margin: 0;
+}
+
+.banking-integration-master {
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(230, 242, 255, 1)
+    
+}
+
+.bank-int-header-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-div-body {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.account-and-integration-div {
+    padding-left: 120px;
+    height: 717px;
+    background: radial-gradient(circle, rgba(230, 242, 255, 1),rgba(0, 95, 174, 1) );
+}
+.account-and-finance-header{
+    font-size: 24px;
+    line-height: 30.72px;
+    font-family: lora;
+    font-weight: 600;
+    color:rgba(30, 30, 30, 1);
+    text-align: center;
+    margin: 0;
+    padding-top: 78px;
+}
+
+.account-and-integration-div-subtext {
+    font-size: 20px;
+    font-family: afacad;
+    font-weight: 400;
+    line-height: 27px;
+    color:rgba(30, 30, 30, 1);
+    margin: 0;
+    margin-top: 16px;
+    text-align: center;
+    width: 1200px;
+}
+
+
+
+.account-and-finance-int-logo-row {
+    margin-left: 122px;
+    display: flex;
+    column-gap: 123px;
+}
+
+.all-logo-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 77px;
+    margin-right: 221px;
+}
+
+.xero-logo-container {
+    display: flex;
+    margin-left: 275px;
+    height: 48px;
+    border-radius: 30px;
+
+}
+
+.account-and-finance-image-and-logo-div {
+    display: flex;
+    margin-top: 64px;
+    align-items: center;
+    justify-content: space-between
+    
+}
+
+
+
+
+.banking-integrations-div {
+    background-color: rgba(230, 242, 255, 1);
+    padding-right: 120px;
+    padding-left: 32px;
+}
+
+
+
+.banking-and-integrations-header {
+    margin: 0;
+    text-align: center;
+    font-family: lora;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.banking-inntegration-subdiv {
+    display: flex;
+    align-items: start;
+    column-gap: 24px;
+    padding-top: 64px;
+    justify-content: space-between;
+}
+
+
+.nav-vertical-bar {
+    height: 613px;
+    width: 64px;
+    
+}
+
+.nav-back-container {
+    display: flex;
+    background-color: rgba(224, 104, 0, 1);
+    border-radius: 30px;
+    width: 64px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-back-container-dummy {
+    width: 64px;
+    height: 36px;
+}
+
+.logo-row {
+    display: flex;
+    column-gap: 121px;
+    margin-left: 157px;
+}
+
+.logo-row-odd {
+    display: flex;
+    column-gap: 121px;
+}
+
+.all-logo-first-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 53px;
+    margin-top: 32px;
+}
+
+.image-and-logo-div-bank-integration {
+    display: flex;
+    margin-top: 64px;
+    
+    justify-content: space-between;
+}
+
+
+.ending-text-first-div {
+    font-size: 18px;
+    font-family: afacad;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: 64px;
+
+}
+
+
+.oracle-logo {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    height: 48px;
+} 
+
+
+
+.third-div {
+    min-width: max-content;
+    height: 330px;
+    background-color: rgba(0, 119, 204, 1);
+    padding-top: 64px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.third-div-text {
+    width: 672px;
+
+    
+}
+
+.third-div-header {
+    font-family: lora;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46.08px;
+    color:rgba(2, 48, 71, 1);
+    margin: 0;
+}
+
+.third-div-subtext {
+    font-family: afacad;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26.67px;
+    color: rgba(242, 242, 242, 1);
+    margin: 0;
+    margin-top: 16px;
+}
+
+.get-started-email-input-bar {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    background-color: rgba(230, 242, 255, 0.13);
+    border-radius: 30px;
+}
+
+.enter-email-input {
+    background-color: rgba(230, 242, 255, 0.13);
+    height: 40px;
+    width: 350px;
+    padding-left: 24px;
+    border-color: rgba(224, 104, 0, 1);
+    border-width: 3px;
+    border-style: solid;
+    margin: 0;
+    border-radius: 30px 0px 0px 30px;
+
+}
+
+::placeholder {
+    color: rgba(242, 242, 242, 1);
+    font-family: afacad;
+    font-weight: 400;
+}
+
+.right-section-third-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.get-started-third-div-button {
+    height: 47.3px;
+    width: 140px;
+    color: rgba(242, 242, 242, 1);
+    background-color: rgba(224, 104, 0, 1);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(224, 104, 0, 1);
+    font-size: 16px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.or-get-started-with-google-div {
+    display: flex;
+    column-gap: 8px;
+}
+
+.or-get-started-with-google {
+    color: rgba(242, 242, 242, 1);
+    font-size: 20px;
+    font-family: afacad;
+    font-weight: 400;
+}
+
+
+footer {
+    height: 388px;
+    background-color: rgba(30, 58, 138, 1);
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 64px;
+    color:rgba(242, 242, 242, 1);
+    display: flex;
+    column-gap: 132px;
+    display: flex;
+    justify-content: space-between;
+    min-width: max-content;
+}
+
+.footer-column-header {
+    font-family: afacad;
+    font-weight: 600;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.footer-column-menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: afacad;
+    font-weight: 400;
+    justify-content: left;
+}
+
+.footer-opt {
+    margin: 0;
+    margin-bottom: 12px;
+    font-family: afacad;
+    font-weight: 400;
+}
+
+.socials-footer {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.footer-copyright {
+    font-family: afacad;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 12px;
+    line-height: 16px;
+}
+
+.span-element {
+    color: rgba(224, 104, 0, 1);   
+}
+
+.features-footer {
+    width: 204px;
+}
+
+.resources-footer
+.learn-more-footer {
+    width: 170px ;
+}
+
+.get-started-footer {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.download-andriod-apple-footer {
+    display: flex;
+    column-gap: 16px;
+    margin-top: 22px;
+}
